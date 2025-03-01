@@ -1,6 +1,6 @@
 # Prog07: Create a program that ask user to input 10 numbers. Print the sum of all the numbers.
 
-numbers = input("Input 10 numbers (Use , to separate): ").split(", ")    # split: divides the number string excluding ", "
+numbers = input("Input 10 numbers (Use , and a space after to separate): ").split(", ")    # split: divides the number string excluding ", "
 Lnum = []                                                                # list initialization
 add = 0
 
