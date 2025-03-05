@@ -6,7 +6,7 @@ Odd = []
 
 
 for val in numbers:
-    Num.append(int(val))
+    Num.append(float(val))
 
 for num in Num:
     if num % 2 != 0:

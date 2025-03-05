@@ -5,7 +5,7 @@ Lnum = []                                                                # list 
 add = 0
 
 for num in numbers:                                    # Line 7-8: puts the divided strings in numbers into the Lnum list
-    Lnum.append(int(num))                              # Lnum.append(int(num)) also makes the string into integers 
+    Lnum.append(float(num))                              # Lnum.append(int(num)) also makes the string into integers 
 
 for x in range(0, len(Lnum)):                          # for adding the numbers inside Lnum list 
     add += Lnum[x]                                     # Lnum[x] = kinukuha ung value ng may index na x sa Lnum
